@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: dependency-groups
-  version: 1.3.0
+  version: "1.3.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/dependency_groups-${{ version }}.tar.gz
-  sha256: 5b9751d5d98fbd6dfd038a560a69c8382e41afcbf7ffdbcc28a2a3f85498830f
+  sha256: 78078301090517fd938c19f64a53ce98c32834dfe0dee6b88004a569a6adfefd
 
 build:
   noarch: python
